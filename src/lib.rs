@@ -4,7 +4,7 @@ use std::env;
 // Takes a list of possible env vars and makes matching struct
 // Env variables can be placed in the a struct with EnvVars::new()
 //
-// For instance: 
+// For instance:
 //    collect_env![APP_NAME, APP_ADDRESS, APP_PORT];
 //    fn main() {
 //      vars = EnvVars::read();
